@@ -74,12 +74,12 @@ section img{
     width: 153px;
     height: 153px;
     transform: translateY(0px);
-    transition: transform .8s;
+    transition: transform 0.8s;
 }
 
 .banner2 img:hover{
     transform: translateY(-20px);
-    transition: transform .8s;
+    transition: transform 0.8s;
 }
 
 .banner3 {
@@ -109,7 +109,7 @@ section img{
 }
 
 .form button{
-    background: linear-gradient(45deg, #1de099, #1dc8cd);
+    background: linear-gradient(45deg, #1de099, #3aafa9);
     border: 0;
     border-radius: 20px;
     padding: 8px 30px;
@@ -119,10 +119,43 @@ section img{
 }
 
 section a{
+    /* background: linear-gradient(45deg, #000, #14b62f00); */
+    border: 1px solid #3AAFA9;
+    border-radius: 20px;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+}
+
+section a:hover{
     background: linear-gradient(45deg, #1de099, #1dc8cd);
     border: 0;
     border-radius: 20px;
     padding: 8px 30px;
+    text-decoration: none;
     color: #fff;
     margin-top: 15px;
 }
+
+.footerclass{
+    display: flex;
+    height: 12vh;
+    background-color:#17252a;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
+
+.footerclass div {
+    width: auto;
+    margin: 0 50px;
+}
+
+footer div img{
+    height: 35px;
+    width: 35px;
+}
+
